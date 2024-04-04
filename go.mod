@@ -3,18 +3,19 @@ module chen4du.com/go-demo
 go 1.20
 
 require (
+	github.com/PuerkitoBio/goquery v1.5.1
 	github.com/bytedance/gopkg v0.0.0-20231219111115-a5eedbe96960
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/golang-module/carbon/v2 v2.3.7
 	github.com/micro/go-micro v1.18.0
 	github.com/panjf2000/ants/v2 v2.9.0
 	github.com/robfig/cron/v3 v3.0.1
+	github.com/rs/zerolog v1.31.0
 	golang.org/x/sync v0.6.0
 )
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
-	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/antchfx/htmlquery v1.2.3 // indirect
 	github.com/antchfx/xmlquery v1.2.4 // indirect
@@ -34,6 +35,8 @@ require (
 	github.com/lucas-clemente/quic-go v0.13.1 // indirect
 	github.com/marten-seemann/chacha20 v0.2.0 // indirect
 	github.com/marten-seemann/qtls v0.4.1 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/micro/cli v0.2.0 // indirect
 	github.com/micro/mdns v0.3.0 // indirect
 	github.com/miekg/dns v1.1.22 // indirect
@@ -45,7 +48,7 @@ require (
 	github.com/nats-io/nkeys v0.1.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
-	github.com/pkg/errors v0.8.1 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
 	github.com/temoto/robotstxt v1.1.1 // indirect
 	go.uber.org/atomic v1.5.0 // indirect
@@ -55,7 +58,7 @@ require (
 	golang.org/x/crypto v0.0.0-20191108234033-bd318be0434a // indirect
 	golang.org/x/lint v0.0.0-20190930215403-16217165b5de // indirect
 	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
-	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
+	golang.org/x/sys v0.12.0 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.0.0-20191029190741-b9c20aec41a5 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
